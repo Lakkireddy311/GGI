@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .chat-container {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 300px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        
+        .message {
+            background-color: #f1f1f1;
+            padding: 5px 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+        
+        .user-message {
+            text-align: right;
+            background-color: #d9edff;
+        }
+        
+        .chat-input {
+            width: 100%;
+            padding: 5px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .send-button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="message">Hello!</div>
+        <div class="message user-message">Hi there!</div>
+        <div class="message">How can I help you?</div>
+        <div class="message user-message">I have a question about your product.</div>
+        <div class="message">Sure, what is your question?</div>
+        <div class="message user-message">...</div>
+    </div>
+
+    <input type="text" class="chat-input" placeholder="Type your message here">
+    <button class="send-button">Send</button>
+</body>
+</html>
